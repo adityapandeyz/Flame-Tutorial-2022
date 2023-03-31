@@ -22,7 +22,11 @@ class MyGame extends FlameGame with HasTappables {
   bool turnAway = false;
   int dialogLevel = 0;
   int sceneLevel = 1;
-  TextPaint dailogTextPaint = TextPaint(style: const TextStyle(fontSize: 20));
+  TextPaint dailogTextPaint = TextPaint(
+      style: const TextStyle(
+    fontSize: 20,
+    color: Colors.white,
+  ));
   bool isDialogButtonAdded = false;
 
   @override
